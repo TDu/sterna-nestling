@@ -58,7 +58,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: #9bcee3;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 700;
 }
 
@@ -262,6 +262,19 @@ img {
   max-width: 100%;
 }
 
+.sterne {
+    float:right;
+    width: 30%;
+    border: 0;
+    padding: 80px 50px 0 0;
+    box-shadow: 0;
+    box-shadow: 0 0 0;
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    -o-box-shadow: 0 0 0; 
+    -ms-box-shadow: 0 0 0; 
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -280,16 +293,18 @@ Full-Width Styles
 #forkme_banner {
   display: block;
   position: absolute;
-  top:0;
+    right: 0;
+    bottom: 0;
   right: 10px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 23px 10px 15px;
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+  height:20px;
 }
 
 #header_wrap {
@@ -303,14 +318,6 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
-}
-
-#project_title {
-  margin: 0;
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
