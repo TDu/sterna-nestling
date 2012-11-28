@@ -58,7 +58,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #9bcee3;
+  background: #8db6e2;/*#879ac2; /*#9bcee3;*/
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -266,7 +266,7 @@ img {
     float:right;
     width: 30%;
     border: 0;
-    padding: 80px 50px 0 0;
+    padding: 70px 50px 0 0;
     box-shadow: 0;
     box-shadow: 0 0 0;
     -webkit-box-shadow: 0 0 0;
@@ -293,18 +293,16 @@ Full-Width Styles
 #forkme_banner {
   display: block;
   position: absolute;
-    right: 0;
-    bottom: 0;
+  right: 0;
+  bottom: 0;
   right: 10px;
   z-index: 10;
   padding: 10px 23px 10px 15px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') transparent no-repeat 95% 50%;*/
   font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
   height:20px;
+  opacity: .5;
 }
 
 #header_wrap {
