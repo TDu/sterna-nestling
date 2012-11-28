@@ -264,9 +264,9 @@ img {
 
 .sterne {
     float:right;
-    width: 30%;
+    width: 35%;
     border: 0;
-    padding: 70px 50px 0 0;
+    padding: 50px 40px 0 0;
     box-shadow: 0;
     box-shadow: 0 0 0;
     -webkit-box-shadow: 0 0 0;
@@ -389,6 +389,15 @@ Small Device Styles
   body {
     font-size:14px;
   }
+
+  .sterne {
+      position: relative;
+      display: block;
+    width:200px;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+    float:none;
+}
 
   #downloads {
     display: none;
