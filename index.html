@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Sterna-nestling : First landing page for sterna.ch" />
+    <head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="Sterna nestling : First landing page for sterna.ch" />
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        <title>Sterna nestling</title>
+    </head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <body>
+        <!--<h1 id="project_title">Sterna</h1>-->
+        <img class="sterne" src="images/sterne.png" alt="sterne"/>
+        <a id="forkme_banner" href="https://github.com/TDu/sterna-nestling"></a>
+    </body>
+    <script type="text/javascript">
 
-    <title>Sterna-nestling</title>
-  </head>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36733190-1']);
+        _gaq.push(['_setDomainName', 'sterna.ch']);
+        _gaq.push(['_trackPageview']);
 
-  <body>
-      <!--<h1 id="project_title">Sterna</h1>-->
-      <img class="sterne" src="images/sterne.png" alt="sterne"/>
-      <a id="forkme_banner" href="https://github.com/TDu/sterna-nestling"></a>
-  </body>
-</html>
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+
+     </script> 
+ </html>
